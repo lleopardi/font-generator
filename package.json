@@ -1,0 +1,22 @@
+{
+  "name": "@lahaus-roomie/font-icon-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "npx svgo -f input/svg -o input/optimized_svg",
+    "clean": "npx rimraf output/font/*",
+    "generate-icons": "npx fantasticon input/optimized_svg -o output/font -c .fantasticonrc.js",
+    "build": "npm run clean && npm run optimize && npm run generate-icons"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fantasticon": "^1.2.3",
+    "icon-font-generator": "^2.1.11",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.8.0"
+  }
+}

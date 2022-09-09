@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "roomie-icons";
+    src: url("./roomie-icons.eot?ddbbc90c83db87423d6c3a777b77f0d9#iefix") format("embedded-opentype"),
+url("./roomie-icons.woff2?ddbbc90c83db87423d6c3a777b77f0d9") format("woff2"),
+url("./roomie-icons.woff?ddbbc90c83db87423d6c3a777b77f0d9") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: roomie-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+    content: "\f101";
+}
+.icon-calendar:before {
+    content: "\f102";
+}
+.icon-check:before {
+    content: "\f103";
+}
+.icon-chevron:before {
+    content: "\f104";
+}
+.icon-clock:before {
+    content: "\f105";
+}
+.icon-close:before {
+    content: "\f106";
+}
+.icon-cycle:before {
+    content: "\f107";
+}
+.icon-double-arrow:before {
+    content: "\f108";
+}
+.icon-download-file:before {
+    content: "\f109";
+}
+.icon-download:before {
+    content: "\f10a";
+}
+.icon-exit:before {
+    content: "\f10b";
+}
+.icon-expand:before {
+    content: "\f10c";
+}
+.icon-house-heart:before {
+    content: "\f10d";
+}
+.icon-info:before {
+    content: "\f10e";
+}
+.icon-megaphone:before {
+    content: "\f10f";
+}
+.icon-person:before {
+    content: "\f110";
+}
+.icon-point:before {
+    content: "\f111";
+}
+.icon-position:before {
+    content: "\f112";
+}
+.icon-share:before {
+    content: "\f113";
+}
+.icon-support:before {
+    content: "\f114";
+}
+.icon-warning:before {
+    content: "\f115";
+}
