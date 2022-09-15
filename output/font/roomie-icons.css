@@ -1,8 +1,8 @@
 @font-face {
     font-family: "roomie-icons";
-    src: url("./roomie-icons.eot?ddbbc90c83db87423d6c3a777b77f0d9#iefix") format("embedded-opentype"),
-url("./roomie-icons.woff2?ddbbc90c83db87423d6c3a777b77f0d9") format("woff2"),
-url("./roomie-icons.woff?ddbbc90c83db87423d6c3a777b77f0d9") format("woff");
+    src: url("./roomie-icons.eot?d3f6204ad85b145fb577d735bd77cc51#iefix") format("embedded-opentype"),
+url("./roomie-icons.woff2?d3f6204ad85b145fb577d735bd77cc51") format("woff2"),
+url("./roomie-icons.woff?d3f6204ad85b145fb577d735bd77cc51") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -73,9 +73,18 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-share:before {
     content: "\f113";
 }
-.icon-support:before {
+.icon-snowflake:before {
     content: "\f114";
 }
-.icon-warning:before {
+.icon-star:before {
     content: "\f115";
+}
+.icon-support:before {
+    content: "\f116";
+}
+.icon-tag:before {
+    content: "\f117";
+}
+.icon-warning:before {
+    content: "\f118";
 }

@@ -18,7 +18,10 @@ export type RoomieIconsId =
   | "point"
   | "position"
   | "share"
+  | "snowflake"
+  | "star"
   | "support"
+  | "tag"
   | "warning";
 
 export type RoomieIconsKey =
@@ -41,7 +44,10 @@ export type RoomieIconsKey =
   | "Point"
   | "Position"
   | "Share"
+  | "Snowflake"
+  | "Star"
   | "Support"
+  | "Tag"
   | "Warning";
 
 export enum RoomieIcons {
@@ -64,7 +70,10 @@ export enum RoomieIcons {
   Point = "point",
   Position = "position",
   Share = "share",
+  Snowflake = "snowflake",
+  Star = "star",
   Support = "support",
+  Tag = "tag",
   Warning = "warning",
 }
 
@@ -88,6 +97,9 @@ export const ROOMIE_ICONS_CODEPOINTS: { [key in RoomieIcons]: string } = {
   [RoomieIcons.Point]: "61713",
   [RoomieIcons.Position]: "61714",
   [RoomieIcons.Share]: "61715",
-  [RoomieIcons.Support]: "61716",
-  [RoomieIcons.Warning]: "61717",
+  [RoomieIcons.Snowflake]: "61716",
+  [RoomieIcons.Star]: "61717",
+  [RoomieIcons.Support]: "61718",
+  [RoomieIcons.Tag]: "61719",
+  [RoomieIcons.Warning]: "61720",
 };
