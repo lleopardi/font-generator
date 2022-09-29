@@ -1,8 +1,8 @@
 @font-face {
     font-family: "roomie-icons";
-    src: url("./roomie-icons.eot?d3f6204ad85b145fb577d735bd77cc51#iefix") format("embedded-opentype"),
-url("./roomie-icons.woff2?d3f6204ad85b145fb577d735bd77cc51") format("woff2"),
-url("./roomie-icons.woff?d3f6204ad85b145fb577d735bd77cc51") format("woff");
+    src: url("./roomie-icons.eot?fd901c94729e409a6d209d186869c101#iefix") format("embedded-opentype"),
+url("./roomie-icons.woff2?fd901c94729e409a6d209d186869c101") format("woff2"),
+url("./roomie-icons.woff?fd901c94729e409a6d209d186869c101") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -22,69 +22,87 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-calendar:before {
     content: "\f102";
 }
-.icon-check:before {
+.icon-camera-check:before {
     content: "\f103";
 }
-.icon-chevron:before {
+.icon-check:before {
     content: "\f104";
 }
-.icon-clock:before {
+.icon-chevron:before {
     content: "\f105";
 }
-.icon-close:before {
+.icon-clock:before {
     content: "\f106";
 }
-.icon-cycle:before {
+.icon-close:before {
     content: "\f107";
 }
-.icon-double-arrow:before {
+.icon-cycle:before {
     content: "\f108";
 }
-.icon-download-file:before {
+.icon-dolar:before {
     content: "\f109";
 }
-.icon-download:before {
+.icon-dollar:before {
     content: "\f10a";
 }
-.icon-exit:before {
+.icon-double-arrow:before {
     content: "\f10b";
 }
-.icon-expand:before {
+.icon-download-file:before {
     content: "\f10c";
 }
-.icon-house-heart:before {
+.icon-download:before {
     content: "\f10d";
 }
-.icon-info:before {
+.icon-exit:before {
     content: "\f10e";
 }
-.icon-megaphone:before {
+.icon-expand:before {
     content: "\f10f";
 }
-.icon-person:before {
+.icon-house-heart:before {
     content: "\f110";
 }
-.icon-point:before {
+.icon-info:before {
     content: "\f111";
 }
-.icon-position:before {
+.icon-less:before {
     content: "\f112";
 }
-.icon-share:before {
+.icon-megaphone:before {
     content: "\f113";
 }
-.icon-snowflake:before {
+.icon-minus:before {
     content: "\f114";
 }
-.icon-star:before {
+.icon-person:before {
     content: "\f115";
 }
-.icon-support:before {
+.icon-plus:before {
     content: "\f116";
 }
-.icon-tag:before {
+.icon-point:before {
     content: "\f117";
 }
-.icon-warning:before {
+.icon-position:before {
     content: "\f118";
+}
+.icon-share:before {
+    content: "\f119";
+}
+.icon-snowflake:before {
+    content: "\f11a";
+}
+.icon-star:before {
+    content: "\f11b";
+}
+.icon-support:before {
+    content: "\f11c";
+}
+.icon-tag:before {
+    content: "\f11d";
+}
+.icon-warning:before {
+    content: "\f11e";
 }
